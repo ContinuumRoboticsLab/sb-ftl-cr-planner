@@ -4,7 +4,7 @@
 
 Open source implementation of the paper *Sampling-Based Follow-the-Leader Motion Planning for Manipulator-Mounted Continuum Robots* (Insert link and in repo description -->).
 
-> **Try it in your browser:** [Here](https://nicholas-baldassini.github.io/Sampling-Based-Follow-the-Leader-Motion-Planning-for-Manipulator-Mounted-Continuum-Robots/)
+> **Try it in your browser:** [Here](https://continuumroboticslab.github.io/sb-ftl-cr-planner/)
 
 ### Abstract
 
