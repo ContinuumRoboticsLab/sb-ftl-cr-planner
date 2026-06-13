@@ -270,7 +270,6 @@ anonymous2026samplingbased,
     title={Sampling-Based Follow-the-Leader Motion Planning for Manipulator-Mounted Continuum Robots},
     author={Shentu, Chengnan and Baldassini, Nicholas and Iseoluwa, Oluwagbotemi D and Gondokaryono, Radian and Burgner-Kahrs, Jessica},
     booktitle={Robotics: Science and Systems 2026},
-    year={2026},
-    url={https://openreview.net/forum?id=m1EMlnV1mk}
+    year={2026}
 }
 ```
