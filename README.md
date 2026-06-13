@@ -266,7 +266,7 @@ run_example.py                 Single-curve demo
 
 ```bibtex
 @inproceedings{
-anonymous2026samplingbased,
+shentu2026samplingftl,
     title={Sampling-Based Follow-the-Leader Motion Planning for Manipulator-Mounted Continuum Robots},
     author={Shentu, Chengnan and Baldassini, Nicholas and Iseoluwa, Oluwagbotemi D and Gondokaryono, Radian and Burgner-Kahrs, Jessica},
     booktitle={Robotics: Science and Systems 2026},
