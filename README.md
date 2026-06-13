@@ -2,9 +2,9 @@
 
 ![FTL planner overview](src/media/ftl_teaser.png)
 
-Open source implementation of the paper *Sampling-Based Follow-the-Leader Motion Planning for Manipulator-Mounted Continuum Robots* (Insert link and in repo description -->).
+Open source implementation of the paper *Sampling-Based Follow-the-Leader Motion Planning for Manipulator-Mounted Continuum Robots* (RSS 2026, [arXiv](https://arxiv.org/abs/2605.11618)).
 
-> **Try it in your browser:** [Here](https://continuumroboticslab.github.io/sb-ftl-cr-planner/)
+> **Try it in your browser:** [Project Website](https://continuumroboticslab.github.io/sb-ftl-cr-planner/)
 
 ### Abstract
 
@@ -268,7 +268,7 @@ run_example.py                 Single-curve demo
 @inproceedings{
 anonymous2026samplingbased,
     title={Sampling-Based Follow-the-Leader Motion Planning for Manipulator-Mounted Continuum Robots},
-    author={Anonymous},
+    author={Shentu, Chengnan and Baldassini, Nicholas and Iseoluwa, Oluwagbotemi D and Gondokaryono, Radian and Burgner-Kahrs, Jessica},
     booktitle={Robotics: Science and Systems 2026},
     year={2026},
     url={https://openreview.net/forum?id=m1EMlnV1mk}
