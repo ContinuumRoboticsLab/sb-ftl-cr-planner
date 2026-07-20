@@ -1,5 +1,12 @@
 .DS_STORE
 *.DS_STORE
+
+# Oversized source media — the site uses the compressed web encodes instead
+# (realDemo.mp4, FinishedCaptions_web.mp4). realDemo.gif is 107 MB, over
+# GitHub's hard 100 MB per-file limit, so it cannot be pushed at all.
+docs/assets/realDemo.gif
+docs/assets/Final.mp4
+docs/assets/FinishedCaptions.mp4
 path_following_history.json
 Evaluations
 RunEvaluations.py

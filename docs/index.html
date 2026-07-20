@@ -35,7 +35,7 @@
           <img src="assets/crlab_logo.png" alt="" class="affiliation__logo" />
           <span>Continuum Robotics Lab &middot; University of Toronto</span>
         </a>
-        <a class="affiliation__link" href="https://roboticsconference.org/"
+        <a class="affiliation__link" href="https://roboticsconference.org/program/papers/189/"
            title="Robotics: Science and Systems · 13–17 July 2026 · Sydney, Australia">
           <img src="assets/RSS2026-logo.png" alt="" class="affiliation__logo" />
           <span>RSS&nbsp;2026 &middot; Sydney, Australia</span>
@@ -43,6 +43,7 @@
       </p>
       <nav class="paper-links">
         <a href="https://arxiv.org/abs/2605.11618" class="btn">Paper (arXiv)</a>
+        <a href="https://www.opencontinuumrobotics.com/research/2026/05/28/sb-ftl-cr-planner.html" class="btn">Blog Post</a>
         <a href="https://github.com/ContinuumRoboticsLab/sb-ftl-cr-planner" class="btn btn--icon">
           <img src="assets/Copilot_Icon_Black_Clearspace.png" alt="" class="btn__icon" />
           <span>GitHub</span>
@@ -79,12 +80,41 @@
       </p>
     </section>
 
+    <section id="real-robot">
+      <h2>Real-Robot Demonstration</h2>
+      <figure class="media-figure">
+        <video src="assets/realDemo.mp4" autoplay loop muted playsinline
+               aria-label="Side-by-side video of the planned FTL motion in simulation and the same motion executed on the physical robot"></video>
+        <figcaption>
+          Planned FTL motion in simulation (left) executed in real time on a 6-DOF
+          tendon-driven continuum robot mounted on a serial manipulator (right).
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="video">
+      <h2>Paper Video</h2>
+      <video class="paper-video" src="assets/FinishedCaptions_web.mp4" controls preload="metadata"
+             poster="assets/video_poster.jpg"
+             aria-label="Full paper video: method overview, base pose alignment, and hardware experiments"></video>
+    </section>
+
     <section id="demo">
       <h2>Try the planner</h2>
       <p class="lead">
         The full sampling-based planner runs live in your browser via Pyodide. Drag in either
         viewer to orbit the camera; scroll to zoom.
       </p>
+
+      <figure class="media-figure">
+        <img src="assets/FTL_SideBySide.gif"
+             alt="Two side-by-side animated 3D plots of the same planned FTL motion: executed waypoint-to-waypoint on the left, and with local interpolation between waypoint base poses on the right." />
+        <figcaption>
+          The same plan executed waypoint-to-waypoint (left) and with local interpolation
+          between waypoint base poses (right) &mdash; the &ldquo;Interpolation steps /
+          waypoint&rdquo; setting below controls this density.
+        </figcaption>
+      </figure>
 
       <div class="callout callout--warn" role="note">
         <span class="callout__icon" aria-hidden="true">⚠</span>
